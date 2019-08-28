@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Order {
-	private String id;//订单id
-	private User user;//订单所属用户
-	private List<Item> items;//订单中包含的商品列表
+	private String id;
+	private User user;
+	private List<Item> items;
 }
